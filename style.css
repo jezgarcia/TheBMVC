@@ -1,11 +1,25 @@
 .second-navbar{
 	position-left: auto;
 	position-right:auto;
+	font-family: Arial;
+	font-size: 20px;
 }
 
+/* 
+	CSS for banner
+*/
 img{
 	max-width:100%;
 	display:block;
 	margin:auto;
 	width:auto;
+}
+
+.mySlides{
+  opacity:1;
+  transition: opacity 1s;
+}
+
+.mySlides.fade{
+  opacity:0;
 }
